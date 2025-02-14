@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet"  href="../css/style.css">
+  
+</head>
+<body> 
+    
+<div class="welcome-notes">
+    <div class="welcome">
+        <h1>Welcome Back!</h1>
+        <p>To keep connected with us please <br>login with your personal info</p>
+        <button id="sign-in">SIGN IN</button>
+    </div>
+    
+    <div class="sign-up">
+        <h2>Create Account</h2>
+        <div class="icon">
+            <i class="fa-brands fa-facebook fa-xl"></i>
+            <i class="fa-brands fa-google-plus fa-xl"></i>
+            <i class="fa-brands fa-linkedin fa-xl"></i></i>
+        </div>
+        <form onsubmit="onformsubmit(event)">
+            <div class="name-icon"><i class="fa-regular fa-user"></i>
+            <input name="name" type="text" id="get-person" placeholder="Name"></div><br>
+            <div class="name-icon"><i class="fa-regular fa-envelope"></i>
+                <input name="email" type="text" id="get-email" placeholder="Email"></div><br>
+                <div class="name-icon"><i class="fa-solid fa-lock"></i>
+                    <input name="password" type="text" id="get-password" placeholder="Password"></div>
+
+                    <button type="submit" id="sign-up">SIGN UP</button>
+        </form>
+       <script src="../javascript/app.js"></script>
+
+    </div>
+</div> 
+</body>
+</html>
